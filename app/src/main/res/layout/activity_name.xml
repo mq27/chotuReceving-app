@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NameActivity"
+    android:background="#FFFFFF"
+    android:id="@+id/userlogin"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_tag_faces_black_24dp"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Name"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:background="@drawable/person"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:drawablePadding="10dp"
+        android:textColorHint="#82CAFA"
+        android:textColor="#0000A0"
+        android:layout_marginBottom="10dp"
+        android:inputType="text"
+        android:id="@+id/owner"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save My Name"
+        android:outlineAmbientShadowColor="@color/colorPrimaryDark"
+        android:textColor="#151b8d"
+        android:background="@drawable/mybtn"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/usermail"
+        android:id="@+id/sent"
+        />
+</LinearLayout>
